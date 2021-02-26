@@ -26,4 +26,9 @@ public class HelloController {
         return "/employee/advanced/hello";
     }
 
+    @GetMapping("/testGithub")
+    public String testGithub(){
+        return "hello!Github!";
+    }
+
 }
